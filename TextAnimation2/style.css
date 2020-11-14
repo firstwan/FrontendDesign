@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: #252839;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+h2{
+    position: relative;
+    color: #252839;
+    font-size: 8rem;
+    -webkit-text-stroke: 0.1px #383d52;
+    text-transform: uppercase;
+}
+
+h2::before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    color: #01fe87;
+    -webkit-text-stroke: 0px #383d52;
+    border-right: 2px solid #01fe87;
+    overflow: hidden;
+    animation: line-scan 6s linear infinite;
+}
+
+
+@keyframes line-scan{
+    0%, 100%
+    {
+        width: 0;
+    }
+    30%, 60%, 90%
+    {
+        width: 100%;
+    }
+}
+
