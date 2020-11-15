@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url('./background.jpg');
+    /* background: linear-gradient(to right, #5f6bdb, #C73FD2); */
+    background-size: cover;
+    min-height: 100vh;
+    color: #2f2f2f;
+}
+
+.logo{
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+}
+
+.username{
+    padding-left: 8px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 5rem;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    text-align: center;
+    width: 130px;
+    height: 100%;
+    padding: 5px 23px;
+    margin-left: 3rem;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links li.active, .nav-links li:hover{
+    color: #fff;
+    background: linear-gradient(to right, #5f6bdb, #C73FD2);
+}
+
+.container{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.container img{
+    width: 85vh;
+    position: absolute;    
+    left: 47%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+}
+
+.circle{
+    height: 40vh;
+    width: 40vh;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    border-radius: 50%;
+    background: linear-gradient(to right, #5f6bdb, #C73FD2);
+    transform: translate(-50%, 0);
+}
+
+.intro{
+    position: absolute;
+    font-weight: bolder;
+}
+.intro-left{
+    font-size: 9vh;
+    bottom: 45%;
+    left:18%
+}
+
+.intro-right{
+    font-size: 12vh;
+    bottom: 30%;
+    right: 19%;
+    color: #C73FD2;
+}
