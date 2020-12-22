@@ -1,6 +1,6 @@
 # Simple frontend animation design
 
-This project is for self practice on frontend design.
+This project is for self practice on frontend.
 
 * 3D Animation => https://3danimate.netlify.app/
 * Animation when load => https://animationwhenload.netlify.app/
