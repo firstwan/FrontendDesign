@@ -1,5 +1,5 @@
 # Simple frontend animation design
 
-This projects contains various of UI animation design developed with pure HTML, CSS, and Javascript.
+This project contains various UI animation designs developed with pure HTML, CSS, and JavaScript.
 
-- Demo => [https://first-ui-animation.netlify.app/](https://first-ui-animation.netlify.app/)
+- Demo => https://first-ui-animation.netlify.app/
